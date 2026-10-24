@@ -5,12 +5,17 @@ This fork serves a single product. The skills in this folder do not fit its work
 | Skill | Why archived |
 |---|---|
 | release, release-sync | Framework release tooling for apexyard maintainers |
-| split-portfolio, onboard, tutorial, handover, orbit | One-time setup and onboarding, already done |
+| split-portfolio, onboard, tutorial, orbit | One-time setup and onboarding, already done |
 | eval-agents, mutation-test | Framework agent evaluation and a milestone-only sensor |
 | extract-features, feature-diagram, process, walking-skeleton, tech-vision | Rewrite and greenfield planning tools this fork does not use |
 | journey, prototype, prototype-close, design-sync | Replaced by design canvases outside the repo |
 
-`geo-audit` stays loaded: the sub-pack extraction check (`bin/extract-subpacks.sh`) needs it.
+Two unused skills stay loaded because framework checks read their files:
+
+- `geo-audit`: the sub-pack extraction check (`bin/extract-subpacks.sh`).
+- `handover`: `.claude/hooks/tests/test_handover_clone_prompt.sh`, the sub-pack test and `bin/install-git-hooks.sh`.
+
+Some hooks and scripts mention archived skills in comments only. They still work.
 
 ## Restore one
 
