@@ -175,6 +175,8 @@ ApexYard ships with a `.claude/` directory containing the Claude Code primitives
 
 One-line summary per skill; canonical details live in each `.claude/skills/<name>/SKILL.md`.
 
+> **Fork note:** this fork serves a single product. 18 skills in the table below are archived in `.claude/skills-archive/` and do not load (its README says how to restore one). Project plugins: `php-lsp`, `typescript-lsp`, `expo`, `context7`, `playwright`.
+
 | Skill | Purpose |
 |-------|---------|
 | `/setup` | First-run bootstrap — configure `onboarding.yaml` in 3 exchanges |
